@@ -2,7 +2,7 @@ h1. !http://railsapps.github.io/images/rails-36x36.jpg(Rails Application for Sub
 
 Rails 3.2 example application shows how to use subdomains with Devise for authentication.
 
-* "Devise":http://github.com/plataformatec/devise gives you ready-made authentication and user management.
+* "Devise":http://github.com/oleksandrbyk/olek-ruby-devise gives you ready-made authentication and user management.
 * MongoDB is used as a datastore with the "Mongoid":http://mongoid.org/  gem for quick development without schemas or migrations.
 
 Best of all, there's a "detailed tutorial":http://railsapps.github.io/tutorial-rails-subdomains.html to show how it's built.
@@ -64,7 +64,7 @@ h3. Clone
 If you want to copy and customize the app with changes that are only useful for your own project, you can clone the GitHub repo. You'll need to search-and-replace the project name throughout the application. You probably should generate the app instead (see below). To clone:
 
 <pre>
-$ git clone git://github.com/RailsApps/rails3-subdomains.git
+$ git clone git://github.com/oleksandrbyk/olek-rails-subdomains.git
 </pre>
 
 You'll need "git":http://git-scm.com/ on your machine. See "Rails and Git":http://railsapps.github.io/rails-git.html.
@@ -155,7 +155,7 @@ Using bundle exec may solve this.
 
 It's due to conflicting gem versions. See the article "Rails Error: “You have already activated (…)”":http://railsapps.github.io/rails-error-you-have-already-activated.html.
 
-Other problems? Check the "issues":https://github.com/RailsApps/rails3-subdomains/issues.
+Other problems? Check the "issues":https://github.com/oleksandrbyk/olek-rails-subdomains/issues.
 
 h3. Edit the README
 
@@ -319,7 +319,7 @@ For your convenience, here are "instructions for deploying your app to Heroku":h
 
 h2. Customizing
 
-"Devise":http://github.com/plataformatec/devise provides a variety of features for implementing authentication. See the Devise documentation for options.
+"Devise":http://github.com/oleksandrbyk/olek-ruby-devise provides a variety of features for implementing authentication. See the Devise documentation for options.
 
 This example application and tutorial demonstrates Devise and Mongoid working together on Rails 3. Add any models, controllers, and views that you need.
 
@@ -335,7 +335,7 @@ Run @rake cucumber@ (or more simply, @cucumber@) to run Cucumber scenarios and s
 
 h2. Troubleshooting
 
-Problems? Check the "issues":https://github.com/RailsApps/rails3-subdomains/issues.
+Problems? Check the "issues":https://github.com/oleksandrbyk/olek-rails-subdomains/issues.
 
 h4. Problems with  "Certificate Verify Failed"
 
@@ -351,7 +351,7 @@ For a Devise introduction, Ryan Bates offers a "Railscast on Devise":http://rail
 
 h4. Issues
 
-Please create an "issue on GitHub":http://github.com/RailsApps/rails3-subdomains/issues if you identify any problems or have suggestions for improvements.
+Please create an "issue on GitHub":http://github.com/oleksandrbyk/olek-rails-subdomains/issues if you identify any problems or have suggestions for improvements.
 
 h4. Where to Get Help
 
@@ -363,7 +363,7 @@ h2. Contributing
 
 If you make improvements to this application, please share with others.
 
-Send the author a message, create an "issue":http://github.com/RailsApps/rails3-subdomains/issues, or fork the project and submit a pull request.
+Send the author a message, create an "issue":http://github.com/oleksandrbyk/olek-rails-subdomains/issues, or fork the project and submit a pull request.
 
 If you add functionality to this application, create an alternative implementation, or build an application that is similar, please contact me and I'll add a note to the README so that others can find your work.
 
